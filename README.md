@@ -13,7 +13,7 @@ The system ensures **bid privacy, bidder anonymity, and verifiable winner select
 
 ---
 
-## 🚀 Demo Setup
+## Demo Setup
 
 ### Run the Application
 
@@ -34,7 +34,7 @@ http://127.0.0.1:5000
 
 ---
 
-## ✅ Pre-Demo Requirements
+## Pre-Demo Requirements
 
 Ensure the following before running the demo:
 
@@ -49,7 +49,7 @@ There is **no separate "join auctioneer" step**.
 
 ---
 
-## 🔄 Full Demo Flow
+## Full Demo Flow
 
 ### 1. Auction Creation
 
@@ -205,7 +205,7 @@ Winner displayed on Auctioneer Panel
 
 ---
 
-## 🔐 Security Explanation (For Judges)
+## Security Explanation (For Judges)
 
 ```
 The system ensures fairness and privacy using cryptographic guarantees:
@@ -231,7 +231,7 @@ The system ensures fairness and privacy using cryptographic guarantees:
 * Forward auction → highest bid wins
 * Reverse auction → lowest bid wins
 
-### ❌ Failure Cases
+### Failure Cases
 
 * Start without bidders → blocked
 * Start before time → blocked
@@ -245,7 +245,7 @@ The system ensures fairness and privacy using cryptographic guarantees:
 
 ---
 
-## 🎯 Strong Demo Sequence
+## Strong Demo Sequence
 
 ```
 Create Auction
@@ -289,7 +289,7 @@ templates/
 
 ---
 
-## 🧠 Key Technologies
+## Key Technologies
 
 * Flask (Backend)
 * Cryptographic Protocols
@@ -298,7 +298,7 @@ templates/
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This system demonstrates a **fully verifiable, anonymous, and trust-minimized auction mechanism** suitable for secure digital bidding environments.
 
